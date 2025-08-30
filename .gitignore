@@ -1,4 +1,4 @@
-# Build directories
+# ROS2 Build artifacts
 build/
 install/
 log/
