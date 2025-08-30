@@ -114,5 +114,3 @@ class AK80ProtocolParser:
     # Other bytes can be used for additional parameters if needed
     
     return bytes(cmd_bytes)
-  
-#asdasds
