@@ -3,7 +3,7 @@
 <package format="3">
   <name>arm_interface</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Robot Arm Interface</description>
   <maintainer email="1201043@isep.ipp.pt">noiyuh</maintainer>
   <license>Apache-2.0</license>
 
@@ -11,11 +11,17 @@
   <depend>std_msgs</depend>
   <depend>sensor_msgs</depend>
   <depend>geometry_msgs</depend>
+  <depend>trajectory_msgs</depend>
+
+
+  <exec_depend>python3-pyserial</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
   <test_depend>python3-pytest</test_depend>
+
+  
 
   <export>
     <build_type>ament_python</build_type>
